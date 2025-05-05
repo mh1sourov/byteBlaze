@@ -1,12 +1,11 @@
-import "./App.css";
+import React from 'react';
 
-function App() {
-  return (
-    <>
-      <h1>Vite + React</h1>
-      <button className="btn btn-secondary">Secondary</button>
-    </>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
 
 export default App;
