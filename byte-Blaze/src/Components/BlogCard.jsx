@@ -4,9 +4,9 @@ import notfound from "/notfound.jpg"
 const BlogCard = ({blog}) => {
   return (
     <Link
-      to='/'
+      to={`/blog/${blog.id}`}
       href="#"
-      className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-900 hidden sm:block"
+      className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-gray-900 hidden sm:block hover:translate-2 hover:border-2 border-primary border-dashed"
     >
       <img
         role="presentation"
